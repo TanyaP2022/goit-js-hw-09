@@ -1,10 +1,10 @@
-const startBtn = document.querySelector('button[data-start]');
-const stopBtn = document.querySelector('button[data-stop]');
+const startBtn = document.querySelector('[data-start]');
+const stopBtn = document.querySelector('[data-stop]');
 const body = document.querySelector('body');
 
 const CHANGE_DELAY = 1000;
 
-startBtn.setAttribute('disabled', 'true');
+stopBtn.setAttribute('disabled', 'true');
 
 startBtn.addEventListener('click', onStartClick);
 stopBtn.addEventListener('click', onStopClick);
