@@ -1,5 +1,5 @@
-const startBtn = document.querySelector('[data-start]');
-const stopBtn = document.querySelector('[data-stop]');
+const startBtn = document.querySelector('button[data-start]');
+const stopBtn = document.querySelector('button[data-stop]');
 const body = document.querySelector('body');
 
 const CHANGE_DELAY = 1000;
