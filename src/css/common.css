@@ -10,9 +10,27 @@ body {
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
+  margin: 50px;
+  background-color: #F2FFED;
 }
 
 img {
   display: block;
   max-width: 100%;
+}
+.timer {
+  display: flex;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+}
+.value {
+  text-align: center;
+  font-size: 25px;
+  color: #4349B5;
+}
+.label{
+  font-size: 15px;
+  color: #3DB843;
 }
