@@ -4,15 +4,14 @@ const body = document.querySelector('body');
 
 const CHANGE_DELAY = 1000;
 
-stopBtn.setAttribute('disabled', 'true');
-
+startBtn.addEventListener('click', getRandomHexColor);
 startBtn.addEventListener('click', onStartClick);
 stopBtn.addEventListener('click', onStopClick);
 
 let intervalId = null;
 
 function onStartClick() {
-  intervalId = setInterval(getRandomHexColor, CHANGE_DELAY, CHANGE_DELAY);
+  intervalId = setInterval(getRandomHexColor, CHANGE_DELAY);
   startBtn.setAttribute('disabled', 'true');
   stopBtn.removeAttribute('disabled', 'true');
 }
