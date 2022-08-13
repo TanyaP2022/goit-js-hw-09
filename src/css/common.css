@@ -20,13 +20,15 @@ img {
   display: flex;
 }
 .field {
-  display: flex;
   flex-direction: column;
+  display: flex;
+  margin-right: 10px;
+  padding: 2px;
 }
 .value {
   text-align: center;
-  font-size: 25px;
-  color: #4349B5;
+  color: #4349b5;
+  font-size: 20px;
 }
 .label{
   font-size: 15px;
