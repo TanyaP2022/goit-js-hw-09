@@ -12,7 +12,7 @@ stopBtn.addEventListener('click', onStopClick);
 let intervalId = null;
 
 function onStartClick() {
-  intervalId = setInterval(getRandomHexColor, CHANGE_DELAY);
+  intervalId = setInterval(getRandomHexColor, CHANGE_DELAY, CHANGE_DELAY);
   startBtn.setAttribute('disabled', 'true');
   stopBtn.removeAttribute('disabled', 'true');
 }
